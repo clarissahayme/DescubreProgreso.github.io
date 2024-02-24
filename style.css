@@ -96,6 +96,7 @@ body{
 .body-food{
     width: 100%;
     background-image: url(./imagenes/huevosmotuleños.jpg);
+    height: 100%;
 }
 .body-activity{
     width: 100%;
@@ -157,6 +158,10 @@ p{
 }
 .main h2{
     font-size: 45px;
+}
+.video{
+    width: 100%;
+    height: 500px;
 }
 footer{
     display: flex;
