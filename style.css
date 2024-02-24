@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+header{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    height: 85px;
+}
+img{
+    width: 100px;
+    height: 100%;
+}
+header ul{
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header a{
+    text-decoration: none;
+    color: rgba(255, 240, 215, 0.856);
+    font-family: 'Times New Roman', Times, serif;
+}
+header ul li{
+    margin: 20px;
+}
+body{
+    background: #facfcf;
+}
+.carousel-caption h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.carousel-caption p{
+    font-size: 20px;
+}
+.introduce{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 30px 0;
+    padding: 30px;
+}
+.introduce h1 {
+    font-size: 100px;
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.introduce p{
+    font-size: 25px;
+    color: darkgrey;
+}
+.main0{
+    margin: 50px;
+    padding: 50px;
+}
+.row{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    align-items: center;
+}
+.row div{
+    padding: 10px;
+}
+.container h2{
+    font-size: 50px;
+}
+.container h4{
+    font-size: 25px;
+}
+.container p{
+    font-size: 20px;
+    color: darkgray
+}
+.container a{
+    text-decoration: none;
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title-card{
+    font-size: 60px;
+}
+.body-playa{
+    width: 100%;
+    background-image: url(./imagenes/playas.jpg);
+}
+.body-food{
+    background-image: url(./imagenes/huevosmotuleños.jpg);
+}
+.body-activity{
+    background-image: url(./imagenes/actividades.jpg);
+}
+.carrusel h5{
+    color: azure;
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+}
+.carrusel p{
+    color: azure;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.carrusel a{
+    text-decoration: none;
+    color: rgb(140, 233, 236);
+    font-family: 'Times New Roman', Times, serif;
+}
+.body-celestun{
+    background-image: url(./imagenes/celestun.jpg);
+}
+.body-sisal{
+    background-image: url(./imagenes/sisal.jpg);
+}
+.body-valladolid{
+    background-image: url(./imagenes/valladolid.jpg);
+}
+.body-merida{
+    background-image: url(./imagenes/merida.jpg);
+}
+h2{
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+}
+h3{
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    font-size: 50px;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    text-align: center;
+    color: darkgray
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main{
+    width: 100%;
+    background-color: rgba(252, 216, 170, 0.812);
+    margin: 10px 10px 50px 10px;
+}
+.main h2{
+    font-size: 45px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-end;
+}
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+footer h4{
+    color: aliceblue;
+    font-size: 25px;
+}
+.dancing-script-header{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800; /* Este valor puede ser ajustado según se necesite */
+    font-style: normal;
+}
+    
