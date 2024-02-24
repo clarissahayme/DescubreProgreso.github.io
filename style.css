@@ -94,9 +94,11 @@ body{
     background-image: url(./imagenes/playas.jpg);
 }
 .body-food{
+    width: 100%;
     background-image: url(./imagenes/huevosmotuleños.jpg);
 }
 .body-activity{
+    width: 100%;
     background-image: url(./imagenes/actividades.jpg);
 }
 .carrusel h5{
@@ -115,15 +117,19 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 .body-celestun{
+    width: 100%;
     background-image: url(./imagenes/celestun.jpg);
 }
 .body-sisal{
+    width: 100%;
     background-image: url(./imagenes/sisal.jpg);
 }
 .body-valladolid{
+    width: 100%;
     background-image: url(./imagenes/valladolid.jpg);
 }
 .body-merida{
+    width: 100%;
     background-image: url(./imagenes/merida.jpg);
 }
 h2{
