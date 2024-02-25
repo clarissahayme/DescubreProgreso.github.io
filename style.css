@@ -103,12 +103,12 @@ body{
     background-image: url(./imagenes/actividades.jpg);
 }
 .carrusel h5{
-    color: azure;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-family: "Dancing Script", cursive;
 }
 .carrusel p{
-    color: azure;
+    color: rgb(255, 255, 255);
     font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -128,6 +128,9 @@ body{
 .body-valladolid{
     width: 100%;
     background-image: url(./imagenes/valladolid.jpg);
+}
+.body-valladolid h3{
+    font-size: 40px;
 }
 .body-merida{
     width: 100%;
